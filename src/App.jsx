@@ -2,10 +2,10 @@ import { useState } from 'react';
 import './App.css';
 
 // Import your components here
-// import Button from './components/Button';
-// import Navbar from './components/Navbar';
+import Button from '@/components/ui/Button'
+import NavigationMenu from '@/components/ui/navigation-menu';
 // import Footer from './components/Footer';
-// import TaskManager from './components/TaskManager';
+import TaskManager from './components/TaskManager';
 
 function App() {
   const [count, setCount] = useState(0);
